@@ -55,6 +55,17 @@
 include:
 
   ### CORNE START ###
+    ### BASIC CORNE WITHOUT DISPLAY START ###
+  - board: nice_nano_v2
+    shield: corne_left
+    cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME=\"Corne_Basic\"
+    artifact-name: nice_corne_left_basic
+    snippet: studio-rpc-usb-uart
+  - board: nice_nano_v2
+    shield: corne_right
+    artifact-name: nice_corne_right_basic
+    ### BASIC CORNE WITHOUT DISPLAY END ###
+
     ### nice_view START ###
     # nice_nano_v2 + nice_epaper
   - board: nice_nano_v2
